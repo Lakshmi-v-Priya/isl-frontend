@@ -6,7 +6,7 @@ let socket = null;
  */
 export const connectWebSocket = (onMessage) => {
   // 👉 CHANGE URL AFTER DEPLOYMENT
-  socket = new WebSocket("ws://127.0.0.1:8000/ws");
+  socket = new WebSocket("wss://isl-backend-enfs.onrender.com/ws");
   // For production (example):
   // socket = new WebSocket("wss://isl-backend.onrender.com/ws");
 
