@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import { sendMessage } from "../services/websocket";
 
-function Camera() {
+
+function Camera({ language }) {
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
 
@@ -46,6 +47,7 @@ function Camera() {
     language: language
   })
 );
+
 
   };
 

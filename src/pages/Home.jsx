@@ -5,6 +5,8 @@ import Camera from "../components/Camera";
 import TextBox from "../components/TextBox";
 import ErrorAlert from "../components/ErrorAlert";
 import WordPrediction from "../components/WordPrediction";
+import LanguageSelector from "../components/LanguageSelector";
+import ControlButtons from "../components/ControlButtons";
 
 function Home() {
   const [language, setLanguage] = useState("English");
